@@ -1,0 +1,19 @@
+:root{
+    --primColor: #14c0cc;
+}
+
+*{box-sizing: border-box;}
+
+.ve{
+    border: 5px solid  var(--primColor);
+    background-color: var(--primColor);
+    border-radius: 50%;
+}
+
+.period{
+    color: var(--primColor);
+}
+
+.lower-nav-form{
+    
+}
