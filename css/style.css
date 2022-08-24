@@ -1,20 +1,36 @@
 :root{
     --primColor: #14c0cc;
+    --footerColor: #434b4d;
 }
 
 *{box-sizing: border-box;}
 
 /* header */
 
+.logo {
+    position: relative;
+}
+
 .ve{
-    border: 5px solid  var(--primColor);
-    background-color: var(--primColor);
+    color: white;  
+}
+
+.ve::before {
+    content: "";
+    padding: 25px;
     border-radius: 50%;
+    position: absolute;
+    left: -4px;
+    top: 0;
+    z-index: -1;
+    background-color: var(--primColor);
 }
 
 .period{
     color: var(--primColor);
 }
+
+
 
 /* close header */
 
@@ -26,6 +42,8 @@
 
 /* footer */
 
-
+.bottom-footer, .mid-footer{
+    background-color: var(--footerColor);
+}
 
 /* close footer */
