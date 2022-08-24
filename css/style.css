@@ -4,6 +4,8 @@
 
 *{box-sizing: border-box;}
 
+/* header */
+
 .ve{
     border: 5px solid  var(--primColor);
     background-color: var(--primColor);
@@ -14,6 +16,16 @@
     color: var(--primColor);
 }
 
-.lower-nav-form{
-    
-}
+/* close header */
+
+/* main */
+
+
+
+/* close main */
+
+/* footer */
+
+
+
+/* close footer */
