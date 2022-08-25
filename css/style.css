@@ -51,8 +51,14 @@
 /* main */
 
 
-.latest-header{
+.latest-header, .welcome-header, .bestseller-header, .manufacturers-header{
     font-family: var(--headerFont);
+    border-left: 5px solid var(--primColor);
+    padding-left: 10px;
+}
+
+.upper-welcome-text, .lower-welcome-text{
+    font-size: 12px;
 }
 
 
@@ -60,8 +66,16 @@
 
 /* footer */
 
+.footer{
+    color: white;
+}
+
 .upper-footer{
     background-color: #d6d6d6;
+}
+
+.upper-footer-header{
+    font-family: var(--headerFont);
 }
 
 .bottom-footer, .mid-footer{
@@ -70,6 +84,18 @@
 
 .account-information-list, .information-list{
     list-style-type: square;
+}
+
+.facebook-header, .twitter-header, .information-header, .account-information-header{
+    font-family: var(--headerFont);
+}
+
+.account-info-link, .information-link{
+    color: white;
+}
+
+.account-info-link:hover, .information-link:hover{
+    color: var(--primColor);
 }
 
 /* close footer */
