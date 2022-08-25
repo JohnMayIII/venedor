@@ -1,6 +1,8 @@
 :root{
     --primColor: #14c0cc;
     --footerColor: #434b4d;
+    --logoFont: 'Zilla Slab', serif;
+    --headerFont: 'Oswald', sans-serif;
 }
 
 *{box-sizing: border-box;}
@@ -30,6 +32,18 @@
     color: var(--primColor);
 }
 
+.upper-header{
+    background-color: #f5f5f5;
+}
+
+.login, .create-an-account{
+    color: var(--primColor);
+}
+
+.login:hover, .create-an-account:hover{
+    color: gray;
+}
+
 
 
 /* close header */
@@ -37,13 +51,25 @@
 /* main */
 
 
+.latest-header{
+    font-family: var(--headerFont);
+}
+
 
 /* close main */
 
 /* footer */
 
+.upper-footer{
+    background-color: #d6d6d6;
+}
+
 .bottom-footer, .mid-footer{
     background-color: var(--footerColor);
+}
+
+.account-information-list, .information-list{
+    list-style-type: square;
 }
 
 /* close footer */
