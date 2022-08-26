@@ -21,15 +21,15 @@
         <div class="upper-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="top-nav just">
-                            <a href="#link" class="header-nav-link top-nav-link text-decoration-none text-dark"><span class="icon top-nav-link-icon"></span>My Wishlist (0)</a>
-                            <a href="#link" class="header-nav-link top-nav-link text-decoration-none text-dark"><span class="icon top-nav-link-icon"></span>My Account</a>
-                            <a href="#link" class="header-nav-link top-nav-link text-decoration-none text-dark"><span class="icon top-nav-link-icon"></span>Shopping Cart</a>
-                            <a href="#link" class="header-nav-link top-nav-link text-decoration-none text-dark"><span class="icon top-nav-link-icon"></span>Checkout</a>
+                    <div class="col-6">
+                        <div class="top-nav">
+                            <a href="#link" class="header-nav-link top-nav-link text-decoration-none text-dark"><span class="icon top-nav-link-icon"><i class="bi bi-pencil"></i></span>My Wishlist (0)</a>
+                            <a href="#link" class="header-nav-link top-nav-link text-decoration-none text-dark"><span class="icon top-nav-link-icon"><i class="bi bi-person-fill"></i></span>My Account</a>
+                            <a href="#link" class="header-nav-link top-nav-link text-decoration-none text-dark"><span class="icon top-nav-link-icon"><i class="bi bi-cart"></i></span>Shopping Cart</a>
+                            <a href="#link" class="header-nav-link top-nav-link text-decoration-none text-dark"><span class="icon top-nav-link-icon"><i class="bi bi-check-lg"></i></span>Checkout</a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-6 header-text">
                         <p class="greeting justify-content-end">Welcome visitor. You can <a href="#link" class="login text-decoration-none">login</a> or <a href="#link" class="create-an-account text-decoration-none">create an account.</a></p>
                     </div>
                 </div>
@@ -37,31 +37,32 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-6 col-md-8">
                     <h1 class="logo"><span class="ve text-light">Ve</span>nedor<span class="period">.</span></h1>
                 </div>
-                <div class="col-md-6">
-                    <button class="btn header-button">US Dollar</button>
-                    <button class="btn header-button"><span class="icon language-icon"></span>English</button>
-                    <button class="btn header-button">0 item(s) - $0.00</button>
-
+                <div class="col-6 col-md-4">
+                    <div class="money-section">
+                        <button class="btn header-button money-section-btn">US Dollar</button>
+                        <button class="btn header-button money-section-btn"><span class="icon language-icon"><i class="bi bi-flag"></i></span>English</button>
+                        <button class="btn header-button money-section-btn-green"><span class="icon cart-icon"><i class="bi bi-cart"></i></span>0 item(s) - $0.00</button>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase">fashion</a>
-                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase">electronics</a>
-                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase">gifts</a>
-                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase">books</a>
-                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase">at home</a>
-                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase">music</a>
+                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">fashion</a>
+                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">electronics</a>
+                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">gifts</a>
+                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">books</a>
+                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">at home</a>
+                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">music</a>
                 </div>
                 <div class="col-md-4">
                     <form action="submit" class="lower-nav-form">
                         <input type="search">
-                        <button class="btn search-btn">Search</button>
+                        <button class="btn search-btn btn-outline-dark"><i class="bi bi-search"></i></button>
                     </form>
                 </div>
             </div>
@@ -80,14 +81,16 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="row">
-                                    <div class="col-md-10">
-                                        <img src="media/hero.png" class="d-block w-100" alt="...">
+                                    <div class="col-md-6">
+                                        <img src="media/hero.png" class="d-block h-100 img-fluid hero-img" alt="...">
                                     </div>
-                                    <div class="col-md-2">
-                                        <h2 class="carousel-header text-uppercase">New</h2>
-                                        <h2 class="carousel-header text-uppercase">Men Collection</h2>
-                                        <p class="text-header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sit enim accusantium obcaecati provident unde sequi nemo cum veritatis reprehenderit pariatur cupiditate dignissimos harum, laboriosam consequuntur fugit itaque corrupti, aspernatur repudiandae ipsa autem quis tenetur.</p>
-                                        <button class="btn carousel-btn text-uppercase">shop now</button>
+                                    <div class="col-md-6">
+                                        <div class="carousel-description">
+                                            <h2 class="carousel-header text-uppercase">New</h2>
+                                            <h2 class="carousel-header text-uppercase">Men Collection</h2>
+                                            <p class="text-header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sit enim accusantium obcaecati provident unde sequi nemo cum veritatis reprehenderit pariatur cupiditate dignissimos harum, laboriosam consequuntur fugit itaque corrupti, aspernatur repudiandae ipsa autem quis tenetur.</p>
+                                            <button class="btn carousel-btn text-uppercase">shop now</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -382,9 +385,9 @@
                     <div class="col-md-3">
                         <h3 class="twitter-header text-uppercase">From twitter</h3>
 
-                        <h4 class="twitter-main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus amet veritatis sapiente ea doloremque officia rerum sint? <a href="#link" class="text-decoration-none">http://t.co/MqacjST476</a></h4>
+                        <h4 class="twitter-main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus amet veritatis sapiente ea doloremque officia rerum sint? <a href="#link" class="text-decoration-none footer-link">http://t.co/MqacjST476</a></h4>
                             <p class="twitter-tsp">about 3 hours ago</p>
-                        <h4 class="twitter-main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus amet veritatis sapiente ea doloremque <a href="#link" class="text-decoration-none">http://t.co/CCkfps248sq</a> officia rerum sint?</h4>
+                        <h4 class="twitter-main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus amet veritatis sapiente ea doloremque <a href="#link" class="text-decoration-none footer-link">http://t.co/CCkfps248sq</a> officia rerum sint?</h4>
                             <p class="twitter-tsp">about 3 hours ago</p>
                     </div>
                     <div class="col-md-3">
