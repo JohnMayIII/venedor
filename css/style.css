@@ -127,8 +127,12 @@ h5{
     color: #434b4d;
 }
 
-.top-cards{
+.top-cards-fix{
     text-align: center;
+}
+
+.top-cards:hover,.bottom-cards:hover{
+    background-color: var(--primColor);
 }
 
 /* close header */
@@ -167,6 +171,15 @@ h5{
 .manufacturers-part{
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.manufacturer-fix{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-top{
+    border: none;
 }
 
 /* close main */
