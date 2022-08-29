@@ -51,18 +51,19 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">fashion</a>
-                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">electronics</a>
-                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">gifts</a>
-                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">books</a>
-                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">at home</a>
-                    <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">music</a>
+                <div class="col-md-6">
+                    <div class="bottom-nav">
+                        <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">fashion</a>
+                        <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">electronics</a>
+                        <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">gifts</a>
+                        <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">books</a>
+                        <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">at home</a>
+                        <a href="#link" class="header-nav-link bottom-nav-link text-uppercase text-decoration-none">music</a>
+                    </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <form action="submit" class="lower-nav-form">
-                        <input type="search">
-                        <button class="btn search-btn btn-outline-dark"><i class="bi bi-search"></i></button>
+                        <input type="search" class="search-square" placeholder="Search"><button class="search-btn btn-dark"><i class="bi bi-search lower-nav-form-icon"></i></button>
                     </form>
                 </div>
             </div>
@@ -131,30 +132,34 @@
                         </button>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="media/freeShipping.png" alt="placeholder" class="img-fluid placeholder-image"/>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="media/sale.png"alt="placeholder" class="img-fluid placeholder-image" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="media/newArrivals.png"alt="placeholder" class="img-fluid placeholder-image" />
+                <div class="triple-img-part">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="media/freeShipping.png" alt="placeholder" class="img-fluid placeholder-image"/>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="media/sale.png"alt="placeholder" class="img-fluid placeholder-image" />
+                        </div>
+                        <div class="col-md-4">
+                            <img src="media/newArrivals.png"alt="placeholder" class="img-fluid placeholder-image" />
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-1">
-                        <h2 class="header latest-header">Latest</h2>
-                    </div>
-                    <div class="col-md-9"></div>
-                    <div class="col-md-2">
-                        <div class="button-display">
-                            <button class="btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>
-                            </button>
-                            <button class="btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
-                            </button>
+                <div class="latest-part">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <h2 class="header latest-header">Latest</h2>
+                        </div>
+                        <div class="col-md-9"></div>
+                        <div class="col-md-2">
+                            <div class="button-display">
+                                <button class="btn">
+                                    <i class="bi bi-chevron-left"></i>
+                                </button>
+                                <button class="btn">
+                                    <i class="bi bi-chevron-right"></i>                            
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -168,7 +173,6 @@
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 <button class="btn top-cards">Add to Cart</button>
                             </div>
                         </div>
@@ -177,7 +181,6 @@
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 <button class="btn top-cards">Add to Cart</button>
                             </div>
                         </div>
@@ -186,7 +189,6 @@
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 <button class="btn top-cards">Add to Cart</button>
                             </div>
                         </div>
@@ -195,41 +197,43 @@
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 <button class="btn top-cards">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="header welcome-header">Welcome to Venedor</h2>
-                        <p class="text upper-welcome-text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam porro, eveniet, quo suscipit fugit enim blanditiis id iste repellendus debitis perspiciatis alias molestiae doloribus quod!
-                        </p>
-                        <p class="text lower-welcome-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, minus in. Ratione animi quam porro perferendis nobis suscipit! Voluptatem, quia nobis officia excepturi porro unde labore placeat veritatis dolorem odio. <a href="#link" class="green-text text-success text-decoration-none">Buy Venedor Theme!</a>
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="media/devices.png"alt="placeholder" class="img-fluid placeholder-image" />
+                <div class="welcome-part">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="header welcome-header">Welcome to Venedor</h2>
+                            <p class="text upper-welcome-text">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam porro, eveniet, quo suscipit fugit enim blanditiis id iste repellendus debitis perspiciatis alias molestiae doloribus quod!
+                            </p>
+                            <p class="text lower-welcome-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, minus in. Ratione animi quam porro perferendis nobis suscipit! Voluptatem, quia nobis officia excepturi porro unde labore placeat veritatis dolorem odio. <a href="#link" class="green-text text-success text-decoration-none">Buy Venedor Theme!</a>
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="media/devices.png"alt="placeholder" class="img-fluid placeholder-image welcome-img" />
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-1">
-                        <h2 class="header bestseller-header">Bestsellers</h2>
-                    </div>
-                    <div class="col-md-9">
-
-                    </div>
-                    <div class="col-md-2">
-                        <div class="button-display">
-                            <button class="btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>
-                            </button>
-                            <button class="btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
-                            </button>
+                <div class="bestsellers-part">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <h2 class="header bestseller-header">Bestsellers</h2>
+                        </div>
+                        <div class="col-md-9">
+    
+                        </div>
+                        <div class="col-md-2">
+                            <div class="button-display">
+                                <button class="btn">
+                                    <i class="bi bi-chevron-left"></i>
+                                </button>
+                                <button class="btn">
+                                    <i class="bi bi-chevron-right"></i>                            </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -244,7 +248,7 @@
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <button class="btn top-cards">Add to Cart</button>
+                                <button class="btn bottom-cards">Add to Cart</button>
                             </div>
                         </div>
                         <div class="card">
@@ -253,7 +257,7 @@
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <button class="btn top-cards">Add to Cart</button>
+                                <button class="btn bottom-cards">Add to Cart</button>
                             </div>
                         </div>
                         <div class="card">
@@ -262,7 +266,7 @@
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <button class="btn top-cards">Add to Cart</button>
+                                <button class="btn bottom-cards">Add to Cart</button>
                             </div>
                         </div>
                         <div class="card">
@@ -271,47 +275,49 @@
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                <button class="btn top-cards">Add to Cart</button>
+                                <button class="btn bottom-cards">Add to Cart</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-1">
-                        <h2 class="header manufacturers-header">Manufacturers</h2>
-                    </div>
-                    <div class="col-md-9">
-                        
-                    </div>
-                    <div class="col-md-2">
-                        <div class="button-display">
-                            <button class="btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>
-                            </button>
-                            <button class="btn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
-                            </button>
+                <div class="manufacturers-part">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <h2 class="header manufacturers-header">Manufacturers</h2>
+                        </div>
+                        <div class="col-md-9">
+                            
+                        </div>
+                        <div class="col-md-2">
+                            <div class="button-display">
+                                <button class="btn">
+                                    <i class="bi bi-chevron-left"></i>
+                                </button>
+                                <button class="btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <a href="#link" class="brand-manufacturers"><img src="media/brandLogoPlaceh.png"alt="placeholder" class="img-fluid placeholder-image" /></a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="#link" class="brand-manufacturers"><img src="media/brandLogoPlaceh.png"alt="placeholder" class="img-fluid placeholder-image" /></a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="#link" class="brand-manufacturers"><img src="media/brandLogoPlaceh.png"alt="placeholder" class="img-fluid placeholder-image" /></a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="#link" class="brand-manufacturers"><img src="media/brandLogoPlaceh.png"alt="placeholder" class="img-fluid placeholder-image" /></a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="#link" class="brand-manufacturers"><img src="media/brandLogoPlaceh.png"alt="placeholder" class="img-fluid placeholder-image" /></a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="#link" class="brand-manufacturers"><img src="media/brandLogoPlaceh.png"alt="placeholder" class="img-fluid placeholder-image" /></a>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a href="#link" class="brand-manufacturers"><img src="media/brandLogoPlaceh.png"alt="placeholder" class="img-fluid placeholder-image" /></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#link" class="brand-manufacturers"><img src="media/brandLogoPlaceh.png"alt="placeholder" class="img-fluid placeholder-image" /></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#link" class="brand-manufacturers"><img src="media/brandLogoPlaceh.png"alt="placeholder" class="img-fluid placeholder-image" /></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#link" class="brand-manufacturers"><img src="media/brandLogoPlaceh.png"alt="placeholder" class="img-fluid placeholder-image" /></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#link" class="brand-manufacturers"><img src="media/brandLogoPlaceh.png"alt="placeholder" class="img-fluid placeholder-image" /></a>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#link" class="brand-manufacturers"><img src="media/brandLogoPlaceh.png"alt="placeholder" class="img-fluid placeholder-image" /></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -326,8 +332,8 @@
                     </div>
                     <div class="col-md-6">
                         <form action="submit" class="lower-nav-form">
-                            <input type="search">
-                            <button class="btn search-btn">Search</button>
+                            <input type="search" placeholder="Enter your email address">
+                            <button class="btn search-btn">Sign Up</button>
                         </form>
                     </div>
                 </div>
